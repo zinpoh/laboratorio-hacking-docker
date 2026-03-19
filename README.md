@@ -22,6 +22,12 @@ Credenciales por defecto
 * Usuario: admin
 * Contraseña: password
 
+## Capturas
+
+### DVWA
+![DVWA](images/dvwa.png)
+
+
 ### 2. OWASP Juice Shop
 **Comando de despliegue**
 ```bash
@@ -31,6 +37,10 @@ En el navegador
 http://localhost:3000
 Descripcion: Tienda online moderna con vulnerabiliades realistas
 
+###  Juice Shop
+![Juice Shop](images/juiceshop.png)
+
+
 ### 3. OWASP WebGoat
 **Comando de despliegue**
 ```bash
@@ -39,6 +49,9 @@ sudo docker run --rm -d -p 8081:8080 -p 9090:9090 webgoat/goatandwolf
 En el navegador
 http://localhost:8081/WebGoat
 WebWolf (auxiliar): http://localhost:9090/WebWolf
+
+### WebGoat
+![WebGoat](images/webgoat.png)
 
 ### Comandos Utiles
 **Ver contenedores en ejecucion**
