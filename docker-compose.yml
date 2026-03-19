@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  dvwa:
+    image: vulnerables/web-dvwa
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    container_name: dvwa-lab
+
+  juiceshop:
+    image: bkimminich/juice-shop
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    container_name: juiceshop-lab
+
+  webgoat:
+    image: webgoat/goatandwolf
+    ports:
+      - "8081:8080"
+      - "9090:9090"
+    restart: unless-stopped
+    container_name: webgoat-lab

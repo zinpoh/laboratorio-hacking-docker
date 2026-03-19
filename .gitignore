@@ -1,0 +1,13 @@
+Archivos temporales
+*.logs
+*.tmp
+*.swp
+
+Directorios de sistema
+.DS_Store
+Thumbs.db
+
+Archivos de configuracion personal
+.env
+*.local
+
